@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: sans-serif;}
+body{
+    background: url("http://www.stpetersacademy.com.pa/wp-content/uploads/2018/06/fondo-login-spa.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .btn-descarga{
+  transition: all 400ms ease-out;
+}
+.btn-descarga:hover{
+ transform: scale(1.1);
+}
+.btn-descarga img{
+    width: 90px;
+}
